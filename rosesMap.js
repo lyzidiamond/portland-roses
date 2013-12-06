@@ -12,10 +12,10 @@ var attribution = L.control.attribution({position: 'bottomright', prefix: '<a hr
 
 $.getJSON('./roses.geojson', function(data) {
   var geojson = L.geoJson(data, {
-    onEachFeature: function(feature, layer) {
+    /*onEachFeature: function(feature, layer) {
       var popupText = "<a href='" + feature.properties.tumblrUrl + "'>" + feature.properties.name + "</a>";
       layer.bindPopup(popupText);
-    },
+    },*/
     pointToLayer: function(feature, latlng) {
       return roseIcon;
     }
