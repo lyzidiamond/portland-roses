@@ -591,21 +591,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.992088,
-          44.948399
-        ]
-      },
-      "properties": {
-        "name": "grace's bouquet",
-        "tumblrUrl": "http://portlandroses.tumblr.com/post/12164370541/graces-bouquet-finally-caught-the-one-in",
-        "imageUrl": "http://24.media.tumblr.com/tumblr_ltld7ftcdb1qa6e32o1_1280.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -122.661453,
           45.529018
         ]
@@ -614,21 +599,6 @@
         "name": "blazer rose",
         "tumblrUrl": "http://portlandroses.tumblr.com/post/11880537010",
         "imageUrl": "http://25.media.tumblr.com/tumblr_ltld2uMk8t1qa6e32o1_1280.jpg"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.17868,
-          45.594563
-        ]
-      },
-      "properties": {
-        "name": "the dalles",
-        "tumblrUrl": "http://portlandroses.tumblr.com/post/25912734030/the-dalles",
-        "imageUrl": "http://25.media.tumblr.com/tumblr_m67obpht021qa6e32o1_1280.jpg"
       }
     },
     {

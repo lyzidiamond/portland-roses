@@ -23,7 +23,7 @@ function onEachFeature(feature, layer) {
 };
 
 // add geojson data, apply rose map markers, apply popups, add to map
-$.getJSON('./roses.geojson', function(data) {
+$.getJSON('./rosesPDX.geojson', function(data) {
   var geojson = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
       return L.marker(latlng, {icon: roseIcon});
