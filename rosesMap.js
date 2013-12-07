@@ -26,7 +26,7 @@ function onEachFeature(feature, layer) {
 $.getJSON('./roses.geojson', function(data) {
   var geojson = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
-      return L.marker(latlng, {roseIcon});
+      return L.marker(latlng, {icon: roseIcon});
     },
     onEachFeature: onEachFeature
   });
