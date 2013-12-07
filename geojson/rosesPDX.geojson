@@ -1,0 +1,620 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.648033,
+          45.524849
+        ]
+      },
+      "properties": {
+        "name": "salvation army rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308707022/the-salvation-army-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.652077,
+          45.523811
+        ]
+      },
+      "properties": {
+        "name": "jeffrey weston rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308716314/the-jeffrey-weston-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.645081,
+          45.534424
+        ]
+      },
+      "properties": {
+        "name": "1971 frank edwards rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308762038/the-frank-edwards-rose-1971",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.645775,
+          45.535103
+        ]
+      },
+      "properties": {
+        "name": "mary stephens rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308737386/the-mary-stephens-rose-1998",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.630882,
+          45.535229
+        ]
+      },
+      "properties": {
+        "name": "william \"bill\" potts rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308724830/the-william-bill-potts-rose-2003",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.636703,
+          45.531044
+        ]
+      },
+      "properties": {
+        "name": "melvin weston rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308268831/the-melvin-weston-rose-1979",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.637398,
+          45.530506
+        ]
+      },
+      "properties": {
+        "name": "vern hansen rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308695886/the-vern-hansen-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.561058,
+          45.504566
+        ]
+      },
+      "properties": {
+        "name": "manuel levenson rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308774244/the-manuel-levenson-rose-1974",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.679779,
+          45.504856
+        ]
+      },
+      "properties": {
+        "name": "kathleen gorman rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308854422/the-kathleen-gorman-rose-2003",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.657051,
+          45.494087
+        ]
+      },
+      "properties": {
+        "name": "joyce waddell rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308842048/the-joyce-waddell-rose-2006",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.685951,
+          45.521748
+        ]
+      },
+      "properties": {
+        "name": "mary lou fendall rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308863589/the-mary-lou-fendall-rose-1995-a-friend-who",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.686584,
+          45.520473
+        ]
+      },
+      "properties": {
+        "name": "tiffany weston rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308813931/the-tiffany-weston-rose-1994",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.710007,
+          45.458485
+        ]
+      },
+      "properties": {
+        "name": "sarah snow rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308828882/the-sarah-snow-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68441,
+          45.519905
+        ]
+      },
+      "properties": {
+        "name": "yamhill little roses",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308885819",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.67131,
+          45.533611
+        ]
+      },
+      "properties": {
+        "name": "jo-lyn roses",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308913904/the-jo-lyn-rose-1995",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.668579,
+          45.531666
+        ]
+      },
+      "properties": {
+        "name": "misc roses",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2308903528",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.681976,
+          45.505165
+        ]
+      },
+      "properties": {
+        "name": "martin & grace johanson rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2673469639/the-martin-grace-johanson-rose-2004",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.634644,
+          45.530907
+        ]
+      },
+      "properties": {
+        "name": "dorenbacher rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2673423758/the-dorenbacher-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.614128,
+          45.512119
+        ]
+      },
+      "properties": {
+        "name": "¿por que no? rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2715390063",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.628143,
+          45.512409
+        ]
+      },
+      "properties": {
+        "name": "35th and hawthorne",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2746584751",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.627686,
+          45.51215
+        ]
+      },
+      "properties": {
+        "name": "35th and hawthorne",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2746584751",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.613136,
+          45.511993
+        ]
+      },
+      "properties": {
+        "name": "35th and hawthorne",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2746584751",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.613419,
+          45.51202
+        ]
+      },
+      "properties": {
+        "name": "48th and hawthorne",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2850433223",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.684837,
+          45.522419
+        ]
+      },
+      "properties": {
+        "name": "scooter's rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2731008688",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.652313,
+          45.500443
+        ]
+      },
+      "properties": {
+        "name": "influential people rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2911517450/real-leaders-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.647873,
+          45.558956
+        ]
+      },
+      "properties": {
+        "name": "house of umoja rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/2942364467/house-of-umoja-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.568459,
+          45.479179
+        ]
+      },
+      "properties": {
+        "name": "pantheon hall sign rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3033087101/new-copper-penny-rose ",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.647682,
+          45.558952
+        ]
+      },
+      "properties": {
+        "name": "roses on the ccc mural",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3070182098/a-portion-of-the-community-cycling-center-mural",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.634911,
+          45.559086
+        ]
+      },
+      "properties": {
+        "name": "30th and alberta",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3107215689/ne-30th-alberta ",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.635422,
+          45.559067
+        ]
+      },
+      "properties": {
+        "name": "lady painting a rose in a mural",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3165858194/rose-within-a-mural",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.636909,
+          45.558983
+        ]
+      },
+      "properties": {
+        "name": "al forno airbrushed roses",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3200928889/airbrushed-roses",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.585678,
+          45.654186
+        ]
+      },
+      "properties": {
+        "name": "united we stand rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3236140221/united-we-stand-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.618027,
+          45.536255
+        ]
+      },
+      "properties": {
+        "name": "sam bates rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3329060236/sam-bates-rose-2004",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.671692,
+          45.477604
+        ]
+      },
+      "properties": {
+        "name": "ken gephart rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3294005755/ken-gephart-rose-willamette-plaza-happy",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.62381,
+          45.40551
+        ]
+      },
+      "properties": {
+        "name": "u store milwaukie rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3365184323/u-store-milwaukie-rose",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.655556,
+          45.535061
+        ]
+      },
+      "properties": {
+        "name": "ne broadway & ne 10th ave",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/3427095406/broadway-building-rose-right-above-wigland",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.666687,
+          45.557156
+        ]
+      },
+      "properties": {
+        "name": "north williams rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/54773054206",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.647278,
+          45.528847
+        ]
+      },
+      "properties": {
+        "name": "lloyd corporate roses",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/6576014701/lloyd-corporate-roses-2010-not-a-hand-painted",
+        "imageUrl": "http://31.media.tumblr.com/tumblr_lmv4ejRbNR1qa6e32o1_1280.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68512,
+          45.520542
+        ]
+      },
+      "properties": {
+        "name": "the greg chaille' rose 2011",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/8756428456/the-greg-chaille-rose-2011",
+        "imageUrl": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.661453,
+          45.529018
+        ]
+      },
+      "properties": {
+        "name": "blazer rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/11880537010",
+        "imageUrl": "http://25.media.tumblr.com/tumblr_ltld2uMk8t1qa6e32o1_1280.jpg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.653603,
+          45.524334
+        ]
+      },
+      "properties": {
+        "name": "keith vernon rose",
+        "tumblrUrl": "http://portlandroses.tumblr.com/post/25913414698/the-keith-vernon-rose-2012",
+        "imageUrl": "http://25.media.tumblr.com/tumblr_m67oj8rCOD1qa6e32o1_1280.jpg"
+      }
+    }
+  ]
+} 
