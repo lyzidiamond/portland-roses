@@ -18,19 +18,12 @@ var roseIcon = L.icon({
 
 // define popup text, add to each layer
 function onEachFeature(feature, layer) {
-  var popupContent = "<a href='" + feature.properties.tumblrUrl + "' target='_blank'>" + feature.properties.name + "</a>";
+  var popupContent = "<a href='" + feature.properties.tumblrUrl + "' 'target=_blank'>" + feature.properties.name + "</a>";
   layer.bindPopup(popupContent);
 };
 
 // add geojson data, apply rose map markers, apply popups, add to map
 $.getJSON('./rosesPDX.geojson', function(data) {
-
-  var geojson = L.geoJson(data, {
-    onEachFeature: onEachFeature
-  });
-
-  geojson.addLayer(new L.Marker(new))
-
   var geojson = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
       return L.marker(latlng, {icon: roseIcon});
