@@ -1,3 +1,31 @@
+var attribution = '<a href="http://leafletjs.com/">Leaflet</a>, <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
+
+var map = L.map('map').setView([45.528479,-122.670014], 15);
+
+L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: attribution
+}).addTo(map);
+
+var roseIcon = L.icon({
+  iconUrl: 'rose.png',
+  iconSize: [90, 90]
+});
+
+function onEachFeature(feature, layer) {
+  var popupContent = "<a href='" + feature.properties.tumblrUrl + "'>" + feature.properties.name + "</a>";
+  layer.bindPopup(popupContent);
+}
+
+L.geoJson('/roses.geojson', {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: roseIcon});
+  },
+  onEachFeature: onEachFeature
+}).addTo(map);
+
+/*
+
 var roseTiles = L.TileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: 'rose icon from Creative Commons - Attribution (CC BY 3.0); rose designed by Nithin Viswanathan from the Noun Project'
@@ -12,10 +40,10 @@ var attribution = L.control.attribution({position: 'bottomright', prefix: '<a hr
 
 $.getJSON('./roses.geojson', function(data) {
   var geojson = L.geoJson(data, {
-    /*onEachFeature: function(feature, layer) {
+    onEachFeature: function(feature, layer) {
       var popupText = "<a href='" + feature.properties.tumblrUrl + "'>" + feature.properties.name + "</a>";
       layer.bindPopup(popupText);
-    },*/
+    },
     pointToLayer: function(feature, latlng) {
       return roseIcon;
     }
@@ -25,3 +53,5 @@ $.getJSON('./roses.geojson', function(data) {
   geojson.addTo(map);
   attribution.addTo(map);
 });
+
+*/
