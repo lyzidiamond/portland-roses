@@ -18,7 +18,7 @@ var roseIcon = L.icon({
 
 // define popup text, add to each layer
 function onEachFeature(feature, layer) {
-  var popupContent = "<a href='" + feature.properties.tumblrUrl + "' 'target=_blank'>" + feature.properties.name + "</a>";
+  var popupContent = "<a href='" + feature.properties.tumblrUrl + "' target='_blank'>" + feature.properties.name + "</a>";
   layer.bindPopup(popupContent);
 };
 
