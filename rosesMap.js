@@ -1,6 +1,6 @@
 var attribution = '<a href="http://leafletjs.com/">Leaflet</a>, <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
 
-var map = L.map('map').setView([45.528479,-122.670014], 15);
+var map = L.map('roses-map').setView([45.528479,-122.670014], 15);
 
 L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
   maxZoom: 18,
