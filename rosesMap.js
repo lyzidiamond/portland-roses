@@ -13,7 +13,7 @@ L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
 // create rose map marker
 var roseIcon = L.icon({
   iconUrl: 'rose.png',
-  iconSize: [90, 90]
+  iconSize: [45, 45]
 });
 
 // define popup text, add to each layer
