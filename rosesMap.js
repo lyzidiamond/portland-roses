@@ -1,5 +1,5 @@
 // text for attribution
-var attribution = '<a href="http://leafletjs.com/">Leaflet</a>, <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
+var attribution = 'map tiles from <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
 
 // initialize map, set initial center, set initial zoom
 var map = L.map('roses-map').setView([45.528479,-122.670014], 12);

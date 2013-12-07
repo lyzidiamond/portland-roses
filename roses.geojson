@@ -586,7 +586,7 @@
         "imageUrl": ""
       }
     },
-    {
+    /* {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -600,7 +600,7 @@
         "tumblrUrl": "http://portlandroses.tumblr.com/post/12164370541/graces-bouquet-finally-caught-the-one-in",
         "imageUrl": "http://24.media.tumblr.com/tumblr_ltld7ftcdb1qa6e32o1_1280.jpg"
       }
-    },
+    }, */
     {
       "type": "Feature",
       "geometry": {
@@ -616,7 +616,7 @@
         "imageUrl": "http://25.media.tumblr.com/tumblr_ltld2uMk8t1qa6e32o1_1280.jpg"
       }
     },
-    {
+    /* {
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -630,7 +630,7 @@
         "tumblrUrl": "http://portlandroses.tumblr.com/post/25912734030/the-dalles",
         "imageUrl": "http://25.media.tumblr.com/tumblr_m67obpht021qa6e32o1_1280.jpg"
       }
-    },
+    }, */
     {
       "type": "Feature",
       "geometry": {
