@@ -12,7 +12,7 @@ L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
 
 // create rose map marker
 var roseIcon = L.icon({
-  iconUrl: 'rose.png',
+  iconUrl: './images/rose.png',
   iconSize: [25, 25]
 });
 
@@ -23,7 +23,7 @@ function onEachFeature(feature, layer) {
 };
 
 // add geojson data, apply rose map markers, apply popups, add to map
-$.getJSON('./rosesPDX.geojson', function(data) {
+$.getJSON('./geojson/rosesPDX.geojson', function(data) {
   var geojson = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
       return L.marker(latlng, {icon: roseIcon});
