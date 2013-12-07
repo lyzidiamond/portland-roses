@@ -5,7 +5,7 @@ var attribution = 'map tiles from <a href="http://stamen.com">Stamen</a>, rose d
 var map = L.map('roses-map').setView([45.528479,-122.670014], 12);
 
 // define tiles, set max zoom, apply attribution, add to map
-L.tileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: attribution
 }).addTo(map);
@@ -18,7 +18,7 @@ var roseIcon = L.icon({
 
 // define popup text, add to each layer
 function onEachFeature(feature, layer) {
-  var popupContent = "<a href='" + feature.properties.tumblrUrl + "'>" + feature.properties.name + "</a>";
+  var popupContent = "<a href='" + feature.properties.tumblrUrl + "' 'target=_blank'>" + feature.properties.name + "</a>";
   layer.bindPopup(popupContent);
 };
 
@@ -30,38 +30,8 @@ $.getJSON('./rosesPDX.geojson', function(data) {
     },
     onEachFeature: onEachFeature
   });
+  // add geojson to map
   geojson.addTo(map);
+  // set map bounds to data
   map.fitBounds(geojson.getBounds());
 });
-
-/*
-
-var roseTiles = L.TileLayer('http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png', {
-  maxZoom: 18,
-  attribution: 'rose icon from Creative Commons - Attribution (CC BY 3.0); rose designed by Nithin Viswanathan from the Noun Project'
-});
-
-var roseIcon = L.icon({
-  iconUrl: 'rose.png',
-  iconSize: [90, 90]
-})
-
-var attribution = L.control.attribution({position: 'bottomright', prefix: '<a href="http://leafletjs.com/">Leaflet</a>, <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>'});
-
-$.getJSON('./roses.geojson', function(data) {
-  var geojson = L.geoJson(data, {
-    onEachFeature: function(feature, layer) {
-      var popupText = "<a href='" + feature.properties.tumblrUrl + "'>" + feature.properties.name + "</a>";
-      layer.bindPopup(popupText);
-    },
-    pointToLayer: function(feature, latlng) {
-      return roseIcon;
-    }
-  });
-  var map = L.map('roses-map').fitBounds(geojson.getBounds());
-  roseTiles.addTo(map);
-  geojson.addTo(map);
-  attribution.addTo(map);
-});
-
-*/
