@@ -22,8 +22,22 @@ function onEachFeature(feature, layer) {
   layer.bindPopup(popupContent);
 };
 
+// define callback function for getJSON
+
+function addDataToMap(result) {
+  var geojson = L.geoJson(result, {
+    pointToLayer: function (feature, latlng) {
+      return L.marker(latlng, {icon: roseIcon});
+    },
+    onEachFeature: onEachFeature;
+  });
+  console.log(geojson);
+  geojson.addTo(map);
+  map.fitBounds(geojson.getBounds());
+};
+
 // add geojson data, apply rose map markers, apply popups, add to map
-$.getJSON('./geojson/rosesPDX.geojson', function(data) {
+$.getJSON('./geojson/rosesPDX.geojson', addDataToMap/* function(data) {
   var geojson = L.geoJson(data, {
     pointToLayer: function (feature, latlng) {
       return L.marker(latlng, {icon: roseIcon});
@@ -35,7 +49,7 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   geojson.addTo(map);
   // set map bounds to data
   map.fitBounds(geojson.getBounds());
-}); /*
+}*/); /*
 
 var markers = L.markerClusterGroup();
 
