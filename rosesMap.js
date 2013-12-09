@@ -17,7 +17,7 @@ var roseIcon = L.icon({
 });
 
 // define popup text, add to each layer
-function onEachFeature(feature, layer) {
+/* function onEachFeature(feature, layer) {
   var popupContent = "<a href='" + feature.properties.tumblrUrl + "' target='_blank'>" + feature.properties.name + "</a>";
   layer.bindPopup(popupContent);
 };
@@ -34,4 +34,24 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   geojson.addTo(map);
   // set map bounds to data
   map.fitBounds(geojson.getBounds());
-});
+}); */
+
+// default clustering
+$.getJSON('./geojson/rosesPDX.geojson', function(data) {
+  var geojson = L.geoJson(data);
+  var features = geojson.features;
+
+  for (var i = 0; i < features.length; i++) {
+    var a = features[i];
+    var popupContent = "<a href='" + features[i].properties.tumblrUrl + "' target='_blank'>" + features[i].properties.name + "</a>";
+    var coordinates = new L.LatLng(features[i].geometry.coordinates);
+    var marker = L.marker(coordinates, { title: popupContent });
+    marker.bindPopup(popupContent);
+    markers.addLayer(marker);
+
+  }
+
+  map.addLayer(markers);
+  map.fitBounds(markers.getBounds());
+
+})
