@@ -1,11 +1,11 @@
 // text for attribution
-var attribution = 'map tiles from <a href="http://stamen.com">Stamen</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
+var attribution = 'map tiles from <a href="http://stamen.com">MapBox</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
 
 // initialize map, set initial center, set initial zoom
 var map = L.map('roses-map').setView([45.528479,-122.670014], 12);
 
 // define tiles, set max zoom, apply attribution, add to map
-L.tileLayer('http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tiles.mapbox.com/lyzidiamond.ggi4654c/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: attribution
 }).addTo(map);
