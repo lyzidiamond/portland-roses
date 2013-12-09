@@ -39,7 +39,9 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
 // default clustering
 $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   var geojson = L.geoJson(data);
+  console.log(geojson);
   var features = geojson.features;
+  console.log(features);
 
   for (var i = 0; i < features.length; i++) {
     var a = features[i];
