@@ -5,7 +5,7 @@ var attribution = 'map tiles from <a href="http://stamen.com">MapBox</a>, rose d
 var map = L.map('roses-map').setView([45.528479,-122.670014], 12);
 
 // define tiles, set max zoom, apply attribution, add to map
-L.tileLayer('http://a.tiles.mapbox.com/lyzidiamond.ggi4654c/{z}/{x}/{y}.png', {
+L.tileLayer('http://{s}.tiles.mapbox.com/lyzidiamond.ggi4654c/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: attribution
 }).addTo(map);
