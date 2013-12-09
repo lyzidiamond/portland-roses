@@ -17,7 +17,7 @@ var roseIcon = L.icon({
 });
 
 // define popup text, add to each layer
-/* function onEachFeature(feature, layer) {
+function onEachFeature(feature, layer) {
   var popupContent = "<a href='" + feature.properties.tumblrUrl + "' target='_blank'>" + feature.properties.name + "</a>";
   layer.bindPopup(popupContent);
 };
@@ -30,11 +30,14 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
     },
     onEachFeature: onEachFeature
   });
+  console.log(geojson);
   // add geojson to map
   geojson.addTo(map);
   // set map bounds to data
   map.fitBounds(geojson.getBounds());
-}); */
+}); /*
+
+var markers = L.markerClusterGroup();
 
 // default clustering
 $.getJSON('./geojson/rosesPDX.geojson', function(data) {
@@ -56,4 +59,4 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
 
-})
+}) */
