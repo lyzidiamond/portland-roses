@@ -29,7 +29,7 @@ function addDataToMap(result) {
     pointToLayer: function (feature, latlng) {
       return L.marker(latlng, {icon: roseIcon});
     },
-    onEachFeature: onEachFeature;
+    onEachFeature: onEachFeature
   });
   console.log(geojson);
   geojson.addTo(map);
