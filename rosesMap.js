@@ -66,6 +66,7 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
     var popupContent = "<a href='" + features[i].properties.tumblrUrl + "' target='_blank'>" + features[i].properties.name + "</a>";
     console.log(popupContent);
     var coordinates = new L.LatLng(features[i].geometry.coordinates[0], features[i].geometry.coordinates[1]);
+    console.log(coordinates);
     var marker = L.marker(coordinates, { title: popupContent });
     marker.bindPopup(popupContent);
     markers.addLayer(marker);
