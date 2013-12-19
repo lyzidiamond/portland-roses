@@ -2,13 +2,15 @@
 var attribution = 'map tiles from <a href="http://stamen.com">MapBox</a>, rose designed by Nithin Viswanathan from the <a href="http://nounproject.com">Noun Project</a>';
 
 // initialize map, set initial center, set initial zoom
-var map = L.map('roses-map').setView([45.528479,-122.670014], 12);
+// var map = L.map('roses-map').setView([45.528479,-122.670014], 12);
+
+L.mapbox.map('map', 'lyzidiamond.gj62pgfj').setView([45.528479,-122.670014], 12);
 
 // define tiles, set max zoom, apply attribution, add to map
-L.tileLayer('http://{s}.tiles.stamen.com/toner-lite/{z}/{x}/{y}.png', {
+/* L.tileLayer('http://{s}.tiles.stamen.com/toner/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: attribution
-}).addTo(map);
+}).addTo(map); */
 
 // create rose map marker
 var roseIcon = L.icon({
@@ -49,7 +51,12 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   geojson.addTo(map);
   // set map bounds to data
   map.fitBounds(geojson.getBounds());
-}); /*
+  geojson.getGeoJSON();
+}); 
+
+
+
+/*
 
 var markers = L.markerClusterGroup();
 
