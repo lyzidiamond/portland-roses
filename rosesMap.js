@@ -59,7 +59,7 @@ var markers = L.markerClusterGroup();
 // default clustering
 $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   var features = data.features;
-  console.log(features);
+  console.log(features.properties.tumblrUrl);
 
   for (var i = 0; i < features.length; i++) {
     var a = features[i];
