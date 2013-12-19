@@ -68,12 +68,13 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
     var coordinates = new L.LatLng(features[i].geometry.coordinates[0], features[i].geometry.coordinates[1]);
     console.log(coordinates);
     var marker = L.marker(coordinates, { title: popupContent });
+    console.log(marker);
     marker.bindPopup(popupContent);
     markers.addLayer(marker);
-    console.log(markers);
 
   }
 
+  console.log(markers);
   map.addLayer(markers);
   map.fitBounds(markers.getBounds());
 
