@@ -59,11 +59,12 @@ var markers = L.markerClusterGroup();
 // default clustering
 $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   var features = data.features;
-  console.log(features.properties.tumblrUrl);
+  console.log(features);
 
   for (var i = 0; i < features.length; i++) {
     var a = features[i];
     var popupContent = "<a href='" + features[i].properties.tumblrUrl + "' target='_blank'>" + features[i].properties.name + "</a>";
+    console.log(popupContent);
     var coordinates = new L.LatLng(features[i].geometry.coordinates[0], features[i].geometry.coordinates[1]);
     var marker = L.marker(coordinates, { title: popupContent });
     marker.bindPopup(popupContent);
