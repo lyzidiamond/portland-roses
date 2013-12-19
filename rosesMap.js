@@ -51,11 +51,7 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   geojson.addTo(map);
   // set map bounds to data
   map.fitBounds(geojson.getBounds());
-  geojson.getGeoJSON();
-}); 
-
-
-
+});
 /*
 
 var markers = L.markerClusterGroup();
