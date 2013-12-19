@@ -56,6 +56,8 @@ function onEachFeature(feature, layer) {
 
 var markers = L.markerClusterGroup();
 
+console.log(typeof markers);
+
 // default clustering
 $.getJSON('./geojson/rosesPDX.geojson', function(data) {
   var features = data.features;
