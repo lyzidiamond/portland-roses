@@ -70,6 +70,7 @@ $.getJSON('./geojson/rosesPDX.geojson', function(data) {
     var marker = L.marker(coordinates, { title: popupContent });
     marker.bindPopup(popupContent);
     markers.addLayer(marker);
+    console.log(markers);
 
   }
 
